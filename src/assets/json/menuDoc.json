@@ -1,0 +1,81 @@
+{
+	"code": 200,
+	"data": [
+		{
+			"icon": "doctor",
+			"title": "医生管理",
+			"path": "/doctor",
+			"children": [
+				{
+					"path": "/doctor/doctorList",
+					"title": "医生概况"
+				},
+				{
+					"path": "/doctor/doctorHandle",
+					"title": "医生列表"
+				}
+			]
+		},
+		{
+			"icon": "user",
+			"title": "使用者管理",
+			"path": "/user",
+			"children": [
+				{
+					"path": "/user/userHandle",
+					"title": "使用者概况"
+				},
+				{
+					"path": "/user/userList",
+					"title": "使用者列表"
+				}
+			]
+		},
+		{
+			"icon": "xindian",
+			"title": "心电数据管理",
+			"path": "/xindian",
+			"children": [
+				{
+					"path": "/xindian/xindianHandle",
+					"title": "心电数据概况"
+				},
+				{
+					"path": "/xindian/xindianList",
+					"title": "心电数据列表"
+				}
+			]
+		},
+		{
+			"icon": "report",
+			"title": "报告管理",
+			"path": "/report",
+			"children": [
+				{
+					"path": "/report/reportHandle",
+					"title": "报告概况"
+				},
+				{
+					"path": "/report/reportList",
+					"title": "报告列表"
+				}
+			]
+		},
+		{
+			"icon": "setting",
+			"title": "设置",
+			"path": "/settings",
+			"children": [
+				{
+					"path": "/settings/servelist",
+					"title": "服务套餐"
+				},
+				{
+					"path": "/settings/code",
+					"title": "权益码管理"
+				}
+			]
+		}
+	],
+	"msg": "成功"
+}

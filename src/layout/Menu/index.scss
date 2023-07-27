@@ -1,0 +1,120 @@
+.menu {
+	position: relative;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+
+	// background-color: skyblue;
+
+	background-color: rgb(36 51 77 / 100%);
+	transition: all 0.3s ease;
+	.logo {
+		box-sizing: border-box;
+		height: 80px;
+		img {
+			width: 150px;
+			height: 50px;
+			margin-top: 0.25rem;
+			margin-left: 0.3rem;
+			object-fit: contain;
+		}
+	}
+	.el-scrollbar {
+		height: calc(100% - 105px);
+		.el-menu {
+			flex: 1;
+			overflow: auto;
+			overflow-x: hidden;
+			border-right: none;
+		}
+	}
+}
+
+// 二级路由
+.el-sub-menu {
+	width: 100%;
+	font-size: 13px;
+
+	// font-size: 10px;
+	.svg {
+		margin-left: 0.075rem;
+	}
+
+	&:hover {
+		background-color: rgb(35 66 99 / 10000%);
+	}
+	.menulist {
+		// width: 50%;
+		// height: 20%;
+
+		// background-color: #ffffff;
+		// 试调这里
+		.el-menu-item {
+			// background-color: #ffffff;
+			font-size: 14px !important;
+		}
+		&.is-active {
+			// width: 65%;
+			margin: 0 auto;
+			font-size: 14px !important;
+			border-radius: 8px;
+			opacity: 1;
+			.svg {
+				color: #ffffff;
+			}
+		}
+		span {
+			display: flex;
+			margin-right: 100px;
+			font-size: 0.1625rem;
+			font-weight: 50;
+
+			// background-color: pink;
+		}
+	}
+}
+
+// 一级路由
+.el-menu-item {
+	width: 95%;
+
+	// height: 0.8rem;
+	margin: 0 auto;
+
+	// background-color: red !important;
+	border-radius: 8px;
+
+	&:hover {
+		background-color: rgb(35 66 99 / 10000%);
+	}
+	&.is-active {
+		width: 95%;
+
+		// height: 0.8rem;
+		margin: 0 auto;
+		background: #207bba;
+		border-radius: 8px;
+		opacity: 1;
+		.svg {
+			color: #ffffff;
+		}
+		&::before {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+
+			// width: 4px;
+			content: "";
+			background-color: #23324d;
+		}
+	}
+}
+.menu-href {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	color: #23324d;
+	text-decoration: none;
+}

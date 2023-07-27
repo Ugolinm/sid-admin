@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="currentColor" version="1.1" width="24" height="24" viewBox="0 0 24 24">
+	<defs>
+		<clipPath id="master_svg0_88_65227">
+			<rect x="0" y="0" width="24" height="24" rx="0" />
+		</clipPath>
+	</defs>
+	<g style="mix-blend-mode:passthrough" clip-path="url(#master_svg0_88_65227)">
+		<g style="mix-blend-mode:passthrough">
+			<path d="M20.591,14.3923C20.9637,14.3923,21.3251,14.2368,21.5849,13.9498C22.1384,13.3636,22.1384,12.4187,21.5849,11.83254L12.504,2.215311C12.2217,1.9282297,11.78117,1.9282297,11.4988,2.215311L2.4179019999999998,11.83254C2.14683,12.1196,2,12.5024,2,12.8971C2,13.7225,2.6325,14.3923,3.41183,14.3923L4.37188,14.3923L4.37188,21.2464C4.37188,21.6651,4.68813,22,5.07214,22L10.58393,22L10.58393,16.7608L13.0575,16.7608L13.0575,22L18.9194,22C19.3147,22,19.6309,21.6651,19.6309,21.2464L19.6309,14.3923L20.591,14.3923Z" fill-rule="evenodd" fill="currentColor" fill-opacity="1" />
+			<path d="" fill="currentColor" fill-opacity="1" />
+		</g>
+	</g>
+</svg>
